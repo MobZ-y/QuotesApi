@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(75, 75, 75);
+}
+.quotesSections{
+    margin-top: 10%;
+}
+
+button{
+    display: block;
+  margin: 0 auto;
+}
