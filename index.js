@@ -1,7 +1,7 @@
 const results = document.querySelector(".quotesSections");
 const btn = document.querySelector("button");
 let datastore = [];
-let value = 4;
+let value = 0;
 
 async function fetchYea() {
   await fetch("https://type.fit/api/quotes")
@@ -23,8 +23,8 @@ function display() {
 }
 
 btn.addEventListener("click", () => {
-  value = Math.ceil(Math.random() * 182);
-  console.log(value);
+  value = Math.ceil(Math.random() * 1642);
+  fetchYea();
   display();
 });
 

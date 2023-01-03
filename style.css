@@ -1,11 +1,20 @@
 body{
     background-color: rgb(75, 75, 75);
 }
-.quotesSections{
-    margin-top: 10%;
-}
 
+.card{
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+}
 button{
     display: block;
   margin: 0 auto;
+}
+.title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
